@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       ),
       //home: LoginPage(),
       //home: ChatPage(),
-      home: const CounterStateful(),
+      home: CounterStateful(buttonColor: Colors.blue),
     );
   }
 }
