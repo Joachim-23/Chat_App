@@ -33,7 +33,7 @@ class ChatPage extends StatelessWidget {
                             : Alignment.centerRight,
                         message: "Hello, this is Pooja!");
                   })),
-          const ChatInput(),
+          ChatInput(),
         ],
       ),
     );
