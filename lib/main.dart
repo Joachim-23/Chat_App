@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.deepPurple,
           appBarTheme: AppBarTheme(
               backgroundColor: Colors.blue, foregroundColor: Colors.black)),
-      //home: LoginPage(),
-      home: ChatPage(),
+      home: LoginPage(),
+      //home: ChatPage(),
       //home: CounterStateful(buttonColor: Colors.blue),
     );
   }
