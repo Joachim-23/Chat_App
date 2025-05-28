@@ -1,6 +1,8 @@
+import 'package:chat_counter_app/utils/brand_color.dart';
 import 'package:chat_counter_app/utils/spaces.dart';
 import 'package:chat_counter_app/widgets/login_text_field.dart';
 import 'package:flutter/material.dart';
+import 'package:social_media_buttons/social_media_buttons.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginPage extends StatelessWidget {
@@ -105,6 +107,19 @@ class LoginPage extends StatelessWidget {
                     Text(_mainUrl),
                   ],
                 ),
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  SocialMediaButton.facebook(
+                    size: 20,
+                    color: Colors.blue,
+                    url: "https://www.facebook.com/joachim.belocura.3",
+                  ),
+                  SocialMediaButton.twitter(
+                    url: "https://x.com/BelocuraJoachim",
+                  )
+                ],
               )
             ],
           ),
